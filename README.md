@@ -1,4 +1,5 @@
-# CNN-powered Wheat Disease Detection
+# DS-UA 301 Project: CNN-powered Wheat Disease Detection
+[Presentaion Slides](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/ATDS%20Project%20Slides.pdf)
 # Project Backgroud
 We are exploring the use of CNN-based image recognition to detect diseases in wheat crops and recommend effective treatments. Our analysis aims to answer how accurately deep learning can diagnose wheat diseases and then provide the correct treatment solutions to minimize crop losses. According to the study "Multi-peril pathogen risks to global wheat production: A probabilistic loss and investment assessment" (Chai_Senay_Horvath_Pardey_2022), wheat farmers around the globe lose 4-10 billion USD annually due to disease-related yield reductions, making treatment measures of topmost priority. As the world population continues to grow, ensuring global food security becomes more essential than ever. Our project will go beyond image classification – we will also use our models to recommend wheat disease treatment as well.
 
