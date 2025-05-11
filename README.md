@@ -4,3 +4,5 @@ We are exploring the use of CNN-based image recognition to detect diseases in wh
 Dataset found on [Kaggle](https://www.kaggle.com/datasets/kushagra3204/wheat-plant-diseases/data).
 
 <img width="870" alt="截屏2025-05-10 下午8 01 53" src="https://github.com/user-attachments/assets/b3376abf-c50e-477a-aaca-7776b4b92453" />
+
+We trained three models and compare their performance on wheat disease prediction.
