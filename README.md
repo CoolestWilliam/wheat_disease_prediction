@@ -20,7 +20,7 @@ The code used to train MobileNetV2 is in [MobileNetV2.ipynb](https://github.com/
 
 The code used to design the customized CNN and train it is in [customCNN.ipynb](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/customCNN.ipynb).
 
-We also created a method for [treatment recommendation](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/treatmentRecommendation.ipynb) that can be utilized with the given disease type. 
+We also created a method for [treatment recommendation](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/treatmentRecommendation.ipynb) that can be utilized with the given disease type, powered by the [treatment dataframe](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/wheat_treatments.csv) created after agricultural research.
 
 # Results
 ResNet18:
