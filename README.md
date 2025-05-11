@@ -23,6 +23,7 @@ Comparison shows ResNet18 has the highest accuracy: 92.4%, followed by the custo
 
 # Results
 
+
 Our CNN-powered wheat disease classification yielded initial promising results – we trained 3 models: ResNet18, a custom CNN, and MobileNetV2, and the former two yielded strong overall accuracy, precision, recall, and F-1 Score. However, all models had poor accuracy (>0.10) on healthy class images. Our next goal was to use various techniques to improve this accuracy, and observe how each CNN changes after applying the techniques.
 
 Ex. The result of ResNet18.
@@ -37,4 +38,13 @@ Ex. MobileNetV2 before and after applying data augmentation techniques.
 # Conclusion
 
 CNN-based models are strong at classifying the differences between disease classes. However, when tasked with predicting the healthy wheat classes (absence of disease), they struggle and have very low accuracy. Even when various techniques are used to try to fix these issues, such as data augmentation and class rebalancing, the model does not see any significant improvement in healthy class prediction accuracy. Worse, this change causes all other disease classes to have significantly reduced prediction accuracy. Potential solutions to address this issue include expanding the dataset to provide the CNN with more examples of healthy wheat, enhancing the model with a more powerful image classification architecture, and incorporating an attention mechanism to help the network focus more effectively on distinguishing disease-specific patterns.
+
+# Reference
+Inspired by the article of using CNN for wheat disease detection:
+
+https://www.sciencedirect.com/science/article/pii/S2352914821001313
+
+and the wheat disease loss data from the Crop Protection Network:
+
+https://cropprotectionnetwork.org/publications/wheat-disease-loss-estimates-from-the-united-states-and-ontario-canada-2020
 
