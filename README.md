@@ -13,13 +13,13 @@ We trained three CNNs and compare their performance on wheat disease prediction.
 
 The chose ResNet18, MobileNetV2, and a customized CNN model.
 
-The code used to train ResNet18 is in resnet18.ipynb.
+The code used to train ResNet18 is in [resnet18.ipynb](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/resnet18.ipynb).
 
-The code used to train MobileNetV2 is in MobileNetV2.ipynb.
+The code used to train MobileNetV2 is in [MobileNetV2.ipynb](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/MobileNetV2.ipynb).
 
-The code used to design the customized CNN and train it is in customCNN.ipynb.
+The code used to design the customized CNN and train it is in [customCNN.ipynb](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/customCNN.ipynb).
 
-Comparison shows ResNet18 has the highest accuracy: 92.4%, followed by the customized CNN which has the accuracy of 90.27%, MobileNetV2 has a lower accuracy 68.4%.
+We also created a method for [treatment recommendation](https://github.com/CoolestWilliam/wheat_disease_prediction/blob/main/treatmentRecommendation.ipynb) that can be utilized with the given disease type. 
 
 # Results
 ResNet18:
