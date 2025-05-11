@@ -22,7 +22,17 @@ The code used to design the customized CNN and train it is in customCNN.ipynb.
 Comparison shows ResNet18 has the highest accuracy: 92.4%, followed by the customized CNN which has the accuracy of 90.27%, MobileNetV2 has a lower accuracy 68.4%.
 
 # Results
+ResNet18:
 
+<img width="471" alt="PNG image" src="https://github.com/user-attachments/assets/1713d167-2c99-4d04-9eec-e5e9fdb44c71" />
+
+MobileNetV2:
+
+<img width="531" alt="截屏2025-04-17 下午9 16 39" src="https://github.com/user-attachments/assets/5533fe6c-1440-4a16-8a4c-3ce97f7eef53" />
+
+Customized CNN:
+
+<img width="529" alt="PNG image" src="https://github.com/user-attachments/assets/7e7d1e61-105a-4f0a-a205-3e0a3df9b83f" />
 
 Our CNN-powered wheat disease classification yielded initial promising results – we trained 3 models: ResNet18, a custom CNN, and MobileNetV2, and the former two yielded strong overall accuracy, precision, recall, and F-1 Score. However, all models had poor accuracy (>0.10) on healthy class images. Our next goal was to use various techniques to improve this accuracy, and observe how each CNN changes after applying the techniques.
 
